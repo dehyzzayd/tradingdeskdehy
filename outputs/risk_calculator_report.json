@@ -1,0 +1,67 @@
+{
+  "agent": "RISK_CALCULATOR",
+  "version": "1.0",
+  "timestamp": "2026-01-26T11:19:25.640468+00:00",
+  "instrument": "XAU/USD",
+  "status": "CALCULATION_COMPLETE",
+  "output": {
+    "equity": 10000.0,
+    "risk_per_trade_dollars": 100.0,
+    "risk_per_trade_percent": 1.0,
+    "daily_pnl": -50.0,
+    "daily_limit_remaining": 250.0,
+    "daily_limit_breached": false,
+    "open_positions": 0,
+    "max_concurrent": 2,
+    "can_open_new_position": true,
+    "position_size_table": [
+      {
+        "stop_pips": 20,
+        "lot_size": 5.0,
+        "risk_dollars": 100.0,
+        "risk_percent": 1.0
+      },
+      {
+        "stop_pips": 30,
+        "lot_size": 3.33,
+        "risk_dollars": 99.9,
+        "risk_percent": 1.0
+      },
+      {
+        "stop_pips": 50,
+        "lot_size": 2.0,
+        "risk_dollars": 100.0,
+        "risk_percent": 1.0
+      },
+      {
+        "stop_pips": 100,
+        "lot_size": 1.0,
+        "risk_dollars": 100.0,
+        "risk_percent": 1.0
+      },
+      {
+        "stop_pips": 150,
+        "lot_size": 0.67,
+        "risk_dollars": 100.5,
+        "risk_percent": 1.0
+      },
+      {
+        "stop_pips": 200,
+        "lot_size": 0.5,
+        "risk_dollars": 100.0,
+        "risk_percent": 1.0
+      }
+    ],
+    "specific_calculation": {
+      "stop_pips": 50,
+      "lot_size": 2.0,
+      "risk_dollars": 100.0
+    }
+  },
+  "internals": {
+    "max_daily_loss_dollars": 300.0,
+    "max_daily_loss_percent": 3.0,
+    "pip_value_per_lot": 1.0,
+    "pip_size": 0.01
+  }
+}

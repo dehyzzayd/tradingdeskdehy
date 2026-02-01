@@ -1,0 +1,52 @@
+{
+  "agent": "STRUCTURE_MAPPER",
+  "version": "1.0",
+  "timestamp": "2026-01-26T11:19:25.638784+00:00",
+  "instrument": "XAU/USD",
+  "status": "ANALYSIS_COMPLETE",
+  "output": {
+    "current_price": 2637.84,
+    "levels_above": [
+      {
+        "price": 2639.19,
+        "strength": "MINOR",
+        "validity": "INVALID",
+        "distance_pips": 135.0
+      },
+      {
+        "price": 2640.85,
+        "strength": "MINOR",
+        "validity": "INVALID",
+        "distance_pips": 301.0
+      }
+    ],
+    "levels_below": [
+      {
+        "price": 2627.69,
+        "strength": "MINOR",
+        "validity": "INVALID",
+        "distance_pips": 1015.0
+      },
+      {
+        "price": 2626.95,
+        "strength": "MINOR",
+        "validity": "INVALID",
+        "distance_pips": 1089.0
+      },
+      {
+        "price": 2621.74,
+        "strength": "MINOR",
+        "validity": "FRESH",
+        "distance_pips": 1610.0
+      }
+    ],
+    "nearest_above_pips": 135.0,
+    "nearest_below_pips": 1015.0
+  },
+  "internals": {
+    "candles_analyzed": 100,
+    "swing_highs_found": 7,
+    "swing_lows_found": 8,
+    "min_distance_pips": 10
+  }
+}

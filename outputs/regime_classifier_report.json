@@ -1,0 +1,19 @@
+{
+  "agent": "REGIME_CLASSIFIER",
+  "version": "1.0",
+  "timestamp": "2026-01-26T11:19:25.637945+00:00",
+  "instrument": "XAU/USD",
+  "status": "ANALYSIS_COMPLETE",
+  "output": {
+    "regime": "TREND_UP",
+    "duration_candles": 10,
+    "prior_regime": "RANGE",
+    "transitions_24h": 3
+  },
+  "internals": {
+    "adx": 62.21,
+    "direction": "UP",
+    "volatility_ratio": 0.92,
+    "candles_analyzed": 100
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "created": "2026-01-26T11:57:31.508123+00:00",
+  "entries": [],
+  "statistics": {
+    "total_decisions": 0,
+    "bias_long": 0,
+    "bias_short": 0,
+    "stand_down": 0,
+    "forbidden": 0,
+    "override": 0
+  },
+  "last_updated": "2026-01-26T11:57:31.508127+00:00"
+}

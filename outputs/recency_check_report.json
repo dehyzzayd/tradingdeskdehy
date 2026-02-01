@@ -1,0 +1,32 @@
+{
+  "agent": "RECENCY_CHECK",
+  "version": "1.0",
+  "timestamp": "2026-01-26T11:19:25.640833+00:00",
+  "instrument": "XAU/USD",
+  "status": "CHECK_COMPLETE",
+  "output": {
+    "tick_direction": {
+      "up": 24,
+      "down": 23,
+      "unchanged": 2
+    },
+    "net_movement_pips": 292.0,
+    "spread_stability": "STABLE",
+    "velocity_trend": "INCREASING",
+    "last_impulse": {
+      "direction": "UP",
+      "strength": "STRONG",
+      "ticks_ago": 1,
+      "size_pips": 175.0
+    },
+    "tick_bias": "NEUTRAL",
+    "intended_direction": "NONE",
+    "alignment": "N/A"
+  },
+  "internals": {
+    "ticks_analyzed": 50,
+    "data_age_seconds": 0.0,
+    "is_data_fresh": true,
+    "stale_threshold_seconds": 5
+  }
+}

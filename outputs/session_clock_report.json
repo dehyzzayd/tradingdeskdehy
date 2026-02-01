@@ -1,0 +1,26 @@
+{
+  "agent": "SESSION_CLOCK",
+  "version": "1.0",
+  "timestamp": "2026-01-26T11:19:25.640152+00:00",
+  "instrument": "XAU/USD",
+  "status": "TIME_CHECK_COMPLETE",
+  "output": {
+    "active_session": "LONDON",
+    "session_age": "4h 19m",
+    "time_to_close": "4h 41m",
+    "boundary_flag": "NONE",
+    "next_transition": {
+      "session": "OVERLAP_LONDON_NY",
+      "in": "When NY opens"
+    }
+  },
+  "internals": {
+    "current_hour_utc": 11,
+    "current_minute": 19,
+    "asia_active": false,
+    "london_active": true,
+    "new_york_active": false,
+    "session_age_minutes": 259,
+    "minutes_to_close": 281
+  }
+}

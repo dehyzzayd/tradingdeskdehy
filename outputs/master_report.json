@@ -1,0 +1,254 @@
+{
+  "timestamp": "2026-01-26T11:19:25.641022+00:00",
+  "instrument": "XAU/USD",
+  "synthesis": {
+    "bias": "BULLISH_BIAS_WEAK",
+    "synthesis_forbidden": true,
+    "forbidden_reason": "SPREAD = EXTREME"
+  },
+  "agents": {
+    "regime": {
+      "agent": "REGIME_CLASSIFIER",
+      "version": "1.0",
+      "timestamp": "2026-01-26T11:19:25.637945+00:00",
+      "instrument": "XAU/USD",
+      "status": "ANALYSIS_COMPLETE",
+      "output": {
+        "regime": "TREND_UP",
+        "duration_candles": 10,
+        "prior_regime": "RANGE",
+        "transitions_24h": 3
+      },
+      "internals": {
+        "adx": 62.21,
+        "direction": "UP",
+        "volatility_ratio": 0.92,
+        "candles_analyzed": 100
+      }
+    },
+    "structure": {
+      "agent": "STRUCTURE_MAPPER",
+      "version": "1.0",
+      "timestamp": "2026-01-26T11:19:25.638784+00:00",
+      "instrument": "XAU/USD",
+      "status": "ANALYSIS_COMPLETE",
+      "output": {
+        "current_price": 2637.84,
+        "levels_above": [
+          {
+            "price": 2639.19,
+            "strength": "MINOR",
+            "validity": "INVALID",
+            "distance_pips": 135.0
+          },
+          {
+            "price": 2640.85,
+            "strength": "MINOR",
+            "validity": "INVALID",
+            "distance_pips": 301.0
+          }
+        ],
+        "levels_below": [
+          {
+            "price": 2627.69,
+            "strength": "MINOR",
+            "validity": "INVALID",
+            "distance_pips": 1015.0
+          },
+          {
+            "price": 2626.95,
+            "strength": "MINOR",
+            "validity": "INVALID",
+            "distance_pips": 1089.0
+          },
+          {
+            "price": 2621.74,
+            "strength": "MINOR",
+            "validity": "FRESH",
+            "distance_pips": 1610.0
+          }
+        ],
+        "nearest_above_pips": 135.0,
+        "nearest_below_pips": 1015.0
+      },
+      "internals": {
+        "candles_analyzed": 100,
+        "swing_highs_found": 7,
+        "swing_lows_found": 8,
+        "min_distance_pips": 10
+      }
+    },
+    "momentum": {
+      "agent": "MOMENTUM_READER",
+      "version": "1.0",
+      "timestamp": "2026-01-26T11:19:25.639324+00:00",
+      "instrument": "XAU/USD",
+      "status": "ANALYSIS_COMPLETE",
+      "output": {
+        "state": "NEUTRAL",
+        "prior_state": "ACCELERATING_SHORT",
+        "state_duration_candles": 1,
+        "velocity_normalized": 0.0607
+      },
+      "internals": {
+        "fast_roc": 0.3523,
+        "slow_roc": 1.1457,
+        "velocity": 1.596,
+        "acceleration": 0.439,
+        "slope": 2.397,
+        "candles_analyzed": 100,
+        "fast_period": 5,
+        "slow_period": 20
+      }
+    },
+    "volatility": {
+      "agent": "VOLATILITY_ASSESSOR",
+      "version": "1.0",
+      "timestamp": "2026-01-26T11:19:25.639776+00:00",
+      "instrument": "XAU/USD",
+      "status": "ANALYSIS_COMPLETE",
+      "output": {
+        "state": "NORMAL",
+        "atr_current_pips": 498.71,
+        "atr_baseline_pips": 546.29,
+        "spread_status": "EXTREME",
+        "spread_pips": 30.0
+      },
+      "internals": {
+        "atr_current": 4.9871,
+        "atr_baseline": 5.4629,
+        "volatility_ratio": 0.9129,
+        "range_percentile": 10.53,
+        "candles_analyzed": 100,
+        "low_threshold": 0.7,
+        "normal_threshold": 1.3,
+        "elevated_threshold": 2.0
+      }
+    },
+    "session": {
+      "agent": "SESSION_CLOCK",
+      "version": "1.0",
+      "timestamp": "2026-01-26T11:19:25.640152+00:00",
+      "instrument": "XAU/USD",
+      "status": "TIME_CHECK_COMPLETE",
+      "output": {
+        "active_session": "LONDON",
+        "session_age": "4h 19m",
+        "time_to_close": "4h 41m",
+        "boundary_flag": "NONE",
+        "next_transition": {
+          "session": "OVERLAP_LONDON_NY",
+          "in": "When NY opens"
+        }
+      },
+      "internals": {
+        "current_hour_utc": 11,
+        "current_minute": 19,
+        "asia_active": false,
+        "london_active": true,
+        "new_york_active": false,
+        "session_age_minutes": 259,
+        "minutes_to_close": 281
+      }
+    },
+    "risk": {
+      "agent": "RISK_CALCULATOR",
+      "version": "1.0",
+      "timestamp": "2026-01-26T11:19:25.640468+00:00",
+      "instrument": "XAU/USD",
+      "status": "CALCULATION_COMPLETE",
+      "output": {
+        "equity": 10000.0,
+        "risk_per_trade_dollars": 100.0,
+        "risk_per_trade_percent": 1.0,
+        "daily_pnl": -50.0,
+        "daily_limit_remaining": 250.0,
+        "daily_limit_breached": false,
+        "open_positions": 0,
+        "max_concurrent": 2,
+        "can_open_new_position": true,
+        "position_size_table": [
+          {
+            "stop_pips": 20,
+            "lot_size": 5.0,
+            "risk_dollars": 100.0,
+            "risk_percent": 1.0
+          },
+          {
+            "stop_pips": 30,
+            "lot_size": 3.33,
+            "risk_dollars": 99.9,
+            "risk_percent": 1.0
+          },
+          {
+            "stop_pips": 50,
+            "lot_size": 2.0,
+            "risk_dollars": 100.0,
+            "risk_percent": 1.0
+          },
+          {
+            "stop_pips": 100,
+            "lot_size": 1.0,
+            "risk_dollars": 100.0,
+            "risk_percent": 1.0
+          },
+          {
+            "stop_pips": 150,
+            "lot_size": 0.67,
+            "risk_dollars": 100.5,
+            "risk_percent": 1.0
+          },
+          {
+            "stop_pips": 200,
+            "lot_size": 0.5,
+            "risk_dollars": 100.0,
+            "risk_percent": 1.0
+          }
+        ],
+        "specific_calculation": {
+          "stop_pips": 50,
+          "lot_size": 2.0,
+          "risk_dollars": 100.0
+        }
+      },
+      "internals": {
+        "max_daily_loss_dollars": 300.0,
+        "max_daily_loss_percent": 3.0,
+        "pip_value_per_lot": 1.0,
+        "pip_size": 0.01
+      }
+    },
+    "recency": {
+      "agent": "RECENCY_CHECK",
+      "version": "1.0",
+      "timestamp": "2026-01-26T11:19:25.640833+00:00",
+      "instrument": "XAU/USD",
+      "status": "CHECK_COMPLETE",
+      "output": {
+        "tick_direction": {
+          "up": 24,
+          "down": 23,
+          "unchanged": 2
+        },
+        "net_movement_pips": 292.0,
+        "spread_stability": "STABLE",
+        "velocity_trend": "INCREASING",
+        "last_impulse": {
+          "direction": "UP",
+          "strength": "STRONG",
+          "ticks_ago": 1,
+          "size_pips": 175.0
+        },
+        "tick_bias": "NEUTRAL",
+        "intended_direction": "NONE",
+        "alignment": "N/A"
+      },
+      "internals": {
+        "ticks_analyzed": 50,
+        "data_age_seconds": 0.0,
+        "is_data_fresh": true,
+        "stale_threshold_seconds": 5
+      }
+    }
+  }
+}

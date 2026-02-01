@@ -1,0 +1,23 @@
+{
+  "agent": "MOMENTUM_READER",
+  "version": "1.0",
+  "timestamp": "2026-01-26T11:19:25.639324+00:00",
+  "instrument": "XAU/USD",
+  "status": "ANALYSIS_COMPLETE",
+  "output": {
+    "state": "NEUTRAL",
+    "prior_state": "ACCELERATING_SHORT",
+    "state_duration_candles": 1,
+    "velocity_normalized": 0.0607
+  },
+  "internals": {
+    "fast_roc": 0.3523,
+    "slow_roc": 1.1457,
+    "velocity": 1.596,
+    "acceleration": 0.439,
+    "slope": 2.397,
+    "candles_analyzed": 100,
+    "fast_period": 5,
+    "slow_period": 20
+  }
+}
